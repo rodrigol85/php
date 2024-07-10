@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+.container {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    border-width: 2px;
+    border-color: black;
+    background-color:gray;
+}
+</style>
+</head>
+<body>
+	
+	<div class="container">
+	<h1>Inserisca le caratteristiche del televisore desiderato</h1>
+	<form action="esempio.php" method="POST">
+		Marca:<input type="text" name="marca"required> <br><br>
+		Modelo:<input type="text" name="modello" required> <br><br>
+		Numero di porte HDMI:<input type="number" name="porte" required> <br><br>
+		Refresh rate:<input type="number" name="refresh" min="1" required>HZ <br>
+		Resoluzione dello Schermo:<br>
+		<input type="radio" name="schermo" value="HD Ready">HD Ready<br>
+		<input type="radio" name="schermo" value="Full HD">Full HD<br>
+		<input type="radio" name="schermo" value="Ultra HK">Ultra HD<br><br>
+		<input type="radio" name="schermo" value="4K">4K<br><br>
+		<input type="submit" value="Invia">
+		
+		
+	
+	
+	
+	
+	
+	</form>
+	
+	</div>
+
+</body>
+</html>

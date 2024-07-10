@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Abbonamento in palestra</title>
+<style>
+.container {
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    border-width: 2px;
+    border-color: black;
+    background-color:gray;
+}
+</style>
+</head>
+<body>
+	
+	<div class="container">
+	<h1>Inserisca i suoi dati</h1>
+	<form action="esempio.php" method="POST">
+		Nome:<input type="text" name="nome"required> <br><br>
+		Et&agrave;:<input type="number" name="eta" min="10" required> <br><br>
+		Frequenza di pagamento:<br>
+		<input type="radio" name="pagamento" value="mensile">Mensile<br>
+		<input type="radio" name="pagamento" value="bimestrale">Bimestrale (10% sconto)<br>
+		<input type="radio" name="pagamento" value="trimestrale">Trimestrale(15% sconto)<br><br>
+		<input type="radio" name="pagamento" value="annuale">Annuale(20% sconto)<br><br>
+		
+		<p>Il costo mensile è di 45euro, ci teniamo a precisare che per gli under 18 e over 64 il costo è di 35euro.</p>
+		<input type="submit" value="Invia">
+
+
+	</form>
+	
+	<?php
+	
+	?>
+	
+	</div>
+
+</body>
+</html>

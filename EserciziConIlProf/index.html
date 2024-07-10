@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Esercizi</title>
+
+<style>
+	body{
+	background-color: gray;
+	}
+	.container{
+	border: black 1px;
+	display: inline;
+	text-align:center;}
+</style>
+</head>
+
+<body>
+<div class="container">
+<h1>Calcola il totale della spessa</h1>
+	<form action="esempio.php" method="GET">
+		<label for="nome">Nome Prodotto</label><br>
+		<input type="text" id="nome" name="nome" required><br>
+		
+		<label for="prezzo">Prezzo Prodotto:</label><br>
+		<input type="number" id="prezzo" name="prezzo" step="0.01" required><br>
+		
+		<label for="quantita">Quantit&agrave;:</label><br>
+		<input type="number" id="quantita" name="quantita" required><br><br>
+		
+		<input type="submit" value="Calcola">
+	
+	
+	</form>
+</div>
+</body>
+</html>
